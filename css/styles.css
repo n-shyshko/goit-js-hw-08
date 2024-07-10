@@ -1,0 +1,27 @@
+ul.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 156px;
+    width: 1128px;
+    padding-left: 0px;
+}
+
+li.gallery-item {
+    width: calc((100% - 48px) / 3);
+    cursor: pointer;
+    }
+
+.gallery-image {
+    width: 100%;
+    }
+
+.gallery-image:hover {
+
+    width: 101%;
+}
+
